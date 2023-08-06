@@ -155,7 +155,7 @@ CKEDITOR_CONFIGS = {
         'toolbar': [
             ['Bold', 'Italic', 'Underline', 'Strike', 'Subscript', 'Superscript'],
             ['JustifyLeft', 'JustifyCenter', 'JustifyRight',
-                'JustifyBlock'],  
+                'JustifyBlock'],
             ['NumberedList', 'BulletedList', 'Outdent', 'Indent', 'Blockquote'],
             ['Link', 'Unlink', 'Anchor'],
             ['Image', 'Table', 'HorizontalRule', 'SpecialChar'],
@@ -184,7 +184,7 @@ CORS_ALLOWED_ORIGINS = [
 ]
 
 CSRF_TRUSTED_ORIGINS = [
-    ' https://web-production-1690.up.railway.app',
+    "https://web-production-1690.up.railway.app",
 ]
 
 
