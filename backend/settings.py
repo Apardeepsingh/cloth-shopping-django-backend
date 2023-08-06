@@ -190,6 +190,9 @@ CSRF_TRUSTED_ORIGINS = [
 
 STATIC_URL = '/static/'
 
+# Add this line to ensure static files are collected properly.
+STATIC_ROOT = os.path.join(BASE_DIR, 'static')
+
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 MEDIA_URL = '/media/'
 
