@@ -184,7 +184,7 @@ CORS_ALLOWED_ORIGINS = [
 ]
 
 CSRF_TRUSTED_ORIGINS = [
-    'web-production-1690.up.railway.app',
+    ' https://web-production-1690.up.railway.app',
 ]
 
 
