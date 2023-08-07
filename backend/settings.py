@@ -180,13 +180,14 @@ PASSWORD_RESET_TIMEOUT = 900  # 900sec = 15min
 
 CORS_ALLOWED_ORIGINS = [
     "https://web-production-1690.up.railway.app",
-    "https://sub.example.com",
+    "https://geek-shop.netlify.app",
     "http://localhost:3000",
     "http://127.0.0.1:3000",
 ]
 
 CSRF_TRUSTED_ORIGINS = [
     "https://web-production-1690.up.railway.app",
+    "https://geek-shop.netlify.app",
 ]
 
 
