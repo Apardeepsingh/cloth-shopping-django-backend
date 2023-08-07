@@ -192,7 +192,7 @@ CSRF_TRUSTED_ORIGINS = [
 
 STATIC_URL = '/static/'
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
-# STATIC_ROOT = os.path.join(BASE_DIR, 'static')
+STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 # Note: STATIC_ROOT is not used when using WhiteNoise for serving static files.
 
 
